@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J/lISI8VkaM=",
+  "dgSpecHash": "Vw/FL95TVeQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\eduar\\Documents\\prueba\\test_dev_back_jr\\testdevbackjr\\Prueba_2\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+  "projectFilePath": "C:\\Users\\eduar\\Documents\\prueba\\test_dev_back_jr\\testdevbackjr\\test\\Prueba_2\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eduar\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\eduar\\.nuget\\packages\\google.protobuf\\3.26.1\\google.protobuf.3.26.1.nupkg.sha512",

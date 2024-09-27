@@ -151,8 +151,8 @@ namespace ConsoleApp1
 
         internal class Program
         {
-            private static string connectionString = "Server=localhost;Database=prueba_tecnica;Uid=root;Pwd=1264vazquez;";
-            private static string path_csv = @"C:\Users\eduar\Documents\Usuarios.csv";
+            private static string connectionString = "Server=localhost;Database=prueba_tecnica;Uid=root;Pwd=admin;";
+            private static string path_csv = @"C:\Users\eduar\Documents\Usuarios.csv"; //especificar donde guardar
 
             static void Main(string[] args)
             {
@@ -182,11 +182,11 @@ namespace ConsoleApp1
                     if (double.TryParse(Console.ReadLine(), out double nuevoSueldo))
                     {
                         usuarioRepo.ActualizarSueldo(login, nuevoSueldo);
-                        Console.WriteLine("Salario actualizado con éxito.");
+                        Console.WriteLine("Salario actualizado");
                     }
                     else
                     {
-                        Console.WriteLine("Error: Ingrese un salario válido.");
+                        Console.WriteLine("Error: Ingrese un salario valido.");
                     }
                 }
                 catch (Exception ex)
@@ -214,11 +214,11 @@ namespace ConsoleApp1
                             FechaIngreso = fechaIngreso
                         };
                         usuarioRepo.AgregarUsuario(nuevoUsuario);
-                        Console.WriteLine("Nuevo usuario agregado con éxito.");
+                        Console.WriteLine("Nuevo usuario agregado");
                     }
                     else
                     {
-                        Console.WriteLine("Error: Ingrese un sueldo válido.");
+                        Console.WriteLine("Error: Ingrese un sueldo valido");
                     }
                 }
                 catch (Exception ex)

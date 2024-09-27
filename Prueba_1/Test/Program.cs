@@ -6,8 +6,8 @@ using System.IO;
 
 class Program
 {
-    static string filePath = @"C:\Users\eduar\Documents\prueba\test_dev_back_jr\testdevbackjr\Prueba_1\DatosPracticaSQL.xlsx";
-    static string connectionString = "Server=localhost;Database=prueba_tecnica;Uid=root;Pwd=1264vazquez;";
+    static string filePath = @"C:\Users\eduar\Documents\prueba\test_dev_back_jr\testdevbackjr\Prueba_1\DatosPracticaSQL.xlsx"; //especificar donde se encuentra el xlsx
+    static string connectionString = "Server=localhost;Database=prueba_tecnica;Uid=root;Pwd=admin;";
 
     static void Main(string[] args)
     {
@@ -70,7 +70,7 @@ class Program
                 conn.Close();
             }
         }
-        Console.WriteLine("Datos de usuarios insertados.");
+        Console.WriteLine("datos de usuarios insertados.");
     }
 
     static void InsertarEmpleados()
@@ -159,6 +159,6 @@ class Program
                 conn.Close();
             }
         }
-        Console.WriteLine("Datos de empleados insertados con éxito.");
+        Console.WriteLine("Datos de empleados insertados");
     }
 }
